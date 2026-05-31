@@ -89,6 +89,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, { threshold: 0.35 });
 
-  sections.forEach(s => navObserver.observe(s));
+  sections.forEach(s => navObserver.observe(s)); });
 
 
