@@ -92,12 +92,3 @@ document.addEventListener('DOMContentLoaded', () => {
   sections.forEach(s => navObserver.observe(s));
 
 
-  const cvBtn = document.getElementById('downloadCvBtn');
-  if (cvBtn) {
-    cvBtn.addEventListener('click', (e) => {
-      e.preventDefault();
-      alert('Add your CV file (e.g. Swazi_Dlamini_CV.pdf) to this folder and update the href on the Download CV button.');
-    });
-  }
-
-});
