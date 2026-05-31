@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const burger = document.getElementById('navBurger');
   const mobileMenu = document.getElementById('mobileMenu');
-  const mobileLinks = mobileMenu.querySelectorAll('a');
+  const mobileLinks = mobileMenu.querySelectorAll('a'); 
 
   burger.addEventListener('click', () => {
     mobileMenu.classList.toggle('open');
